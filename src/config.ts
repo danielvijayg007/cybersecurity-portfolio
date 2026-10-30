@@ -9,7 +9,7 @@ export const portfolioConfig = {
   subtitle: 'Cybersecurity Enthusiast  /  VAPT  /  Security Operations',
   email: 'danielvijayg.off@gmail.com', // e.g. 'hello@example.com'; leave empty until ready to publish
   linkedIn: 'https://www.linkedin.com/in/danielvijayg007/', // e.g. 'https://www.linkedin.com/in/your-profile/'
-  github: '', // e.g. 'https://github.com/yourhandle'
+  github: 'https://github.com/danielvijayg007', // e.g. 'https://github.com/yourhandle'
   location: 'BALLARI, KARNATAKA, INDIA',
   education: {
     qualification: 'MCA (Master of Computer Applications)',
