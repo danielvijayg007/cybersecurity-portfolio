@@ -121,3 +121,4 @@ The portfolio is for showcasing **authorized educational practice**. Always obta
 ## Make your name larger or smaller
 
 Your name is now the primary oversized heading on the homepage. Set `fullName` and `shortName` in `src/config.ts`. To adjust its display size, change the `.hero-name` `font-size` rule in `src/index.css` (currently `clamp(3.4rem, 6.4vw, 7rem)` with a mobile override). The role appears immediately below your name.
+"# cybersecurity-portfolio" 
