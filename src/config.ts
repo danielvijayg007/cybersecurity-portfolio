@@ -1,28 +1,38 @@
 /**
- * EDIT THIS FILE FIRST. These are public portfolio settings, not secrets.
- * Blank values intentionally produce clear placeholders / demo behavior.
+ * Public portfolio settings. Never put passwords, API keys or secrets here.
+ * These details are shown on your publicly accessible website.
  */
 export const portfolioConfig = {
   fullName: 'DANIEL VIJAY GORREMACHU',
   shortName: 'DANIEL GORREMACHU',
   role: 'Cybersecurity & VAPT Practitioner',
   subtitle: 'Cybersecurity Enthusiast  /  VAPT  /  Security Operations',
-  email: 'danielvijayg.off@gmail.com', // e.g. 'hello@example.com'; leave empty until ready to publish
-  linkedIn: 'https://www.linkedin.com/in/danielvijayg007/', // e.g. 'https://www.linkedin.com/in/your-profile/'
-  github: 'https://github.com/danielvijayg007', // e.g. 'https://github.com/yourhandle'
+  email: 'danielvijayg.off@gmail.com',
+  linkedIn: 'https://www.linkedin.com/in/danielvijayg007/',
+  github: 'https://github.com/danielvijayg007',
   location: 'BALLARI, KARNATAKA, INDIA',
   education: {
     qualification: 'MCA (Master of Computer Applications)',
     institution: 'KARNATAK UNIVERSITY, DHARWAD',
-    graduationYear: '2024',
+    graduationYear: '2024', // Examination/completion year; formal degree conferred in 2026.
     training: 'Cybersecurity With GenAI , NIIT'
+  },
+  /** Public, redacted degree certificate. Do not publish your original. */
+  degreeCredential: {
+    title: 'Master of Computer Applications',
+    university: 'Karnatak University, Dharwad',
+    examination: 'October 2024',
+    classification: 'First Class',
+    conferralDate: '23 April 2026',
+    image: '/credentials/mca-degree-public.webp',
+    pdf: '/credentials/mca-degree-public.pdf'
   },
   /** Add only certifications you have earned and can verify. */
   certifications: [] as { title: string; issuer: string; year: string; url?: string }[],
-  /** The provided PDF is a placeholder-bearing draft; replace it with your own. */
+  /** Existing resume PDF. Edit or replace separately if it contains placeholders. */
   resumePdf: '/resume.pdf',
-  /** Leave blank until a redacted VAPT report is ready for public sharing. */
+  /** Leave blank until a redacted VAPT report is available. */
   vaptReportPdf: '',
-  /** Optional real contact-form endpoint, e.g. https://formspree.io/f/xxxxxxxx. */
+  /** Configure a real form provider endpoint here, if needed. */
   contactFormEndpoint: ''
 };
